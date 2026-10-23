@@ -11,7 +11,7 @@ public class Assertion {
             "Sample New Tab should be visible"
         );
     }
-
+ 
     // TC01 and TC02 - Verify parent tab/window URL
     public void verifyParentPageUrl(String actualUrl) {
         Assert.assertTrue(
